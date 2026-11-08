@@ -1,0 +1,53 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:7051001c-bc2c-5db8-9360-60053db0db35",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-13T20:48:33Z",
+    "component": {
+      "type": "application",
+      "name": "K_PYSERIAL",
+      "version": "a5c48d445fbc",
+      "bom-ref": "pkg:generic/anticloud/K_PYSERIAL@a5c48d445fbc",
+      "purl": "pkg:generic/anticloud/K_PYSERIAL@a5c48d445fbc",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "a5c48d445fbc1943d4fabf8d9090a50fda3172fd"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/pyserial/pyserial"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "sphinx",
+      "version": "unspecified",
+      "purl": "pkg:pypi/sphinx",
+      "bom-ref": "pypi/sphinx@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "sphinx_rtd_theme",
+      "version": "unspecified",
+      "purl": "pkg:pypi/sphinx_rtd_theme",
+      "bom-ref": "pypi/sphinx_rtd_theme@unspecified"
+    }
+  ]
+}

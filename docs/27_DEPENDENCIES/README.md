@@ -1,0 +1,3 @@
+# 27_DEPENDENCIES
+
+Documentation for K_PYSERIAL - 27_DEPENDENCIES
